@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+body{
+    background: #fff;
+   text-align: center;
+    height: 100vh;
+    font-family: Outfit;
+}
+
+.logo{
+    margin-top: 20px;
+}
+
+.sign-in-container{
+    margin: auto;
+    border: 1px solid #c7c7c7;
+    max-width:28vw;
+    height: 60vh;
+    padding: 20px 30px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.sign-in-container h1{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.sign-in-container label{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.sign-in-container input{
+    width: 100%;
+    height: 35px;
+    margin-top: 2px;
+    border: 1px solid #9b9b9b;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sign-in-container input:focus{
+    outline: 3px solid rgb(156, 255, 247);
+    background:#edfcfa;
+}
+
+.sign-in-container button{
+    margin-top: 16px;
+    background: #ffc31f;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.sign-in-container button:hover{
+    background: #ffaa0c;
+}
+.sign-in-container p{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.sign-in-container span{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sign-in-container span:hover{
+    text-decoration: underline;
+    color: #8a1616;
+}
+
+.text span{
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.text span:hover{
+    text-decoration: underline;
+    color: #8a1616;
+}
+
+.sign-in-container hr{
+    margin-top: 20px;
+    background: #eeeeee;
+}
+
+.sign-in-container h4{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.shop-text{
+    color: blue;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.shop-text:hover{
+    text-decoration: underline;
+    color: #8a1616;
+}
+
+.signin-bottom{
+    padding-top: 15px;
+    margin: 20px auto;
+    text-align: center;
+    max-width:30vw;
+    gap: 2px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.signin-bottom hr{
+    background: #f7f7f7;
+    width: 130px;
+}
+
+.signin-bottom p{
+    color: gray;
+    font-size: 13px;
+}
+
+.create-btn{
+    width: 28%;
+    height: 5%;
+    border-radius: 6px;
+    border: 1px solid #d8d5d5;
+    background:none;
+    cursor: pointer;
+}
+
+.create-btn:hover{
+    background: #f0f5ff;
+}
+
+footer{
+    margin-top: 40px;
+    width:100%;
+    font-size: 12px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.links a:hover{
+    color: #8a1616;
+    text-decoration: underline;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+footer p{
+    color: #575757;
+}
+
+/* media-query */
+
+
+@media only screen and (max-width:900px){
+    .sign-in-container{
+        max-width: 50%;
+        height: 400px;
+    }
+    .create-btn{
+        width: 50%;
+    }
+    }
+@media only screen and (max-width:600px){
+.sign-in-container{
+    max-width: 90%;
+    height: 400px;
+}
+.create-btn{
+    width: 50%;
+}
+}
